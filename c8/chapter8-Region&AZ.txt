@@ -39,7 +39,7 @@ AWS Global Infrastructure:
 - Amazon EC2 (Infrastructure as a Service)
 - Elastic Beanstalk (Platform as a Service)
 - Lambda (Function as a Service)
-- Rekogition (Software as a Service)
+- Rekognition (Software as a Service)
 
 
 * Region Table: https://aws.amazon.com/vi/about-aws/global-infrastructure/regional-product-services/
