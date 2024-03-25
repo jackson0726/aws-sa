@@ -1,0 +1,26 @@
+AWS Global Infrastructure:
+- AWS Regions
+  + A region is a cluster of data centers
+- AWS Availability Zones
+- AWS Data Centers
+- AWS Edge Locations / Points of Presence
+
+
+* How to choose an AWS Regions?
+- Depends on Compliance with data governance(quản trị dữ liệu) and legal requirements: data never leaves a region(local region) without your explicit permission.
+- Proximity(gần: time & space) to customers: reduced latency (network,...)
+- Available services within a Region: new services and new features are not available in every Region (Not all Regions have ALL services)
+- Pricing: pricing varies(thay đổi) region to region and is transparent in the service pricing page
+
+
+* AWS Availability Zones:
+- Each region has many Availability Zones: usually=3, min=3, max=6
+- Ex: 
+  + Region: Sydney: ap-southeast-2 
+  + AZs: ap-southeast-2a, ap-southeast-2b and ap-southeast-2c
+  + a AZ has: 1 or more data centers.
+- They are separate from earch other, isolated from disasters.
+- They are connected with high bandwidth, ultra-low latency networking.
+
+
+* AWS Edge Locations / Points of Presence:
